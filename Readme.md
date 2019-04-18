@@ -1,6 +1,6 @@
 # StretchGymTimer
 
-This is a little thing I wrote to remind me of stretching intervals and when I planned to go to gym. Wanted to experiment with [nuklear]() so  figured this would be a neat little way of dipping my toes in.
+This is a little thing I wrote to remind me of stretching intervals and when I planned to go to gym. Wanted to experiment with [nuklear](https://github.com/vurtun/nuklear) so  figured this would be a neat little way of dipping my toes in.
 
 Intervals can be set from 1-5 hours, gym time is indicated by an hour in 24hr format, the file alert.wav contains whatever audio needs to be played for the alert sound.
 
