@@ -81,6 +81,8 @@ func main(){
 				close(exitC)
 				continue
 			}
+			//apparently fixes the occasional missing font crash that happens occasionally
+			nk.NkStyleSetFont(ctx, sansfont.Handle())
 			glfw.PollEvents()
 			gfxMain(win, ctx, state)
 			checkTimers(state)
